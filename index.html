@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>俊喆的电脑学习实验室</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="hero">
+    <nav class="navbar">
+      <div class="logo">JZ Lab</div>
+      <div class="nav-links">
+        <a href="#projects">项目</a>
+        <a href="#notes">笔记</a>
+        <a href="#timeline">路线</a>
+      </div>
+    </nav>
+
+    <section class="hero-content">
+      <p class="tag">Cloudflare Pages · Codex · Wireshark · HSPICE</p>
+      <h1>俊喆的电脑学习实验室</h1>
+      <p class="desc">
+        这里记录我学习网络、AI 工具、编程、Cloudflare 和电路仿真的过程。
+        每一个小项目，都是我把知识真正做出来的证明。
+      </p>
+
+      <div class="hero-buttons">
+        <a class="btn primary" href="#projects">查看我的项目</a>
+        <a class="btn secondary" href="#notes">学习笔记</a>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section" id="projects">
+      <div class="section-title">
+        <p>Projects</p>
+        <h2>我正在做的小项目</h2>
+      </div>
+
+      <div class="cards">
+        <article class="card">
+          <span class="icon">🌐</span>
+          <h3>Cloudflare 个人主页</h3>
+          <p>把自己的域名、DNS、HTTPS、Cloudflare Pages 串起来，做一个真正能访问的网站。</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">🤖</span>
+          <h3>Codex / AI 工具学习</h3>
+          <p>记录我使用 Codex、Claude、DeepSeek API、Playwright 技能时遇到的问题和解决方法。</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">📡</span>
+          <h3>Wireshark 抓包实验</h3>
+          <p>学习 DNS、DoH、TCP、UDP、代理、TUN 模式等网络知识，并用抓包验证。</p>
+        </article>
+
+        <article class="card">
+          <span class="icon">🔌</span>
+          <h3>HSPICE / CMOS 仿真</h3>
+          <p>整理数字电路、反相器、与非门、功耗和时延仿真的学习过程。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split" id="notes">
+      <div>
+        <p class="mini-title">Notes</p>
+        <h2>最近在学什么？</h2>
+        <p class="text">
+          我现在主要在补电脑基础：网络原理、代理、DNS、Git、Cloudflare、AI 编程工具，
+          以及专业课相关的电路仿真。
+        </p>
+      </div>
+
+      <div class="note-box">
+        <h3>当前学习重点</h3>
+        <ul>
+          <li>会把网页部署到自己的域名</li>
+          <li>能看懂基本的 DNS 记录</li>
+          <li>能用 Git 保存和更新项目</li>
+          <li>能用 Wireshark 验证网络现象</li>
+          <li>能把 HSPICE 实验整理成笔记</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="timeline">
+      <div class="section-title">
+        <p>Roadmap</p>
+        <h2>接下来的路线</h2>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <span>01</span>
+          <div>
+            <h3>美化个人主页</h3>
+            <p>先把网页做得像一个真正的个人技术主页。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span>02</span>
+          <div>
+            <h3>整理学习笔记</h3>
+            <p>把 Cloudflare、Wireshark、Codex、HSPICE 内容慢慢补进去。</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <span>03</span>
+          <div>
+            <h3>学习 Docker</h3>
+            <p>等静态网页完成后，再学习容器、镜像、端口映射和部署。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year"></span> 俊喆的电脑学习实验室 · Built with HTML, CSS and Cloudflare Pages</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
